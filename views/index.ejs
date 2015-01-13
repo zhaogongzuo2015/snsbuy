@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="snsbuy">
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <link rel='stylesheet' href='/css/bootstrap.min.css' />
+
   </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  <body class="container" ng-controller="main">
+
+
+
+
+
+
+
+
+
+
+
+
+  	<script type="text/javascript" src="/js/jquery.min.js"></script>
+  	<script type="text/javascript" src="/js/d3.min.js"></script>
+  	<script type="text/javascript" src="/js/angular.min.js"></script>
+	<!-- <comment> Most Time, I did not use bootstrap, cos I am slow and hate it.</comment> -->
+  	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+  	<script type="text/javascript">
+  		(function(){
+
+
+
+
+  			var app = angular.module("snsbuy", []);
+  			app.controller("main", ["$scope", "$http", function($scope, $http){
+
+  			}]);
+
+
+
+
+
+
+
+
+  		})()
+  	</script>
   </body>
 </html>
